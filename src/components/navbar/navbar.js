@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {menuItems} from './menuItems';
 import './navbar.css';
 
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
 // use class when you untilize state
 
 class navbar extends Component{
@@ -22,9 +24,9 @@ class navbar extends Component{
                     {menuItems.map((item, index)=>{
                         return (
                             <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                    {item.title}
-                                </a>
+                                
+                                  <Link className={item.cName} to={item.url}>{item.title}</Link>
+                                
                             </li>
                         )
                     })}  

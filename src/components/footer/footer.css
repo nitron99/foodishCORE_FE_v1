@@ -2,8 +2,13 @@
     background:rgb(14, 53, 45);
     height: 250px;
     color: white;
-    position: relative;
     font-size: 0.8rem;
+
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     
 }
 
