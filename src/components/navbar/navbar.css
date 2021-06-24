@@ -5,11 +5,11 @@
 
 .navbarItems{
     background:rgb(14, 53, 45);
-    height: 80px;
+    height: 68px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.10rem;
 }
 
 .navbar-logo {
@@ -33,7 +33,7 @@
 .nav-links {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 0.8rem;
+    padding: 0.5rem 0.77rem;
 }
 
 .nav-links:hover{
