@@ -7,7 +7,7 @@ class footer extends Component{
         return(
             <footer className="footer">
                 
-                    <h1 className="text">this is a footer</h1>
+                    <h1 className="text">this is a footer.</h1>
             </footer>
 
         );
