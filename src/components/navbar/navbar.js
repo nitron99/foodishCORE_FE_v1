@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {menuItems} from './menuItems';
 import './navbar.css';
 
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // use class when you untilize state
 
