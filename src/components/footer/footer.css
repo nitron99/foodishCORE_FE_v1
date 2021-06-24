@@ -1,8 +1,39 @@
 .footer{
     background:rgb(14, 53, 45);
-    height: 200px;
+    height: 250px;
     color: white;
-    text-align: center;
+    position: relative;
     font-size: 0.8rem;
+    
+}
+
+.copyrightbar
+{
+    background: rgb(26, 110, 93);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position : absolute;
+    bottom: 0px;   
+}
+
+.quicklinks{   
+    position:absolute;
+    margin : 30px;
+    left : 20%;
+}
+
+.AboutUs{
+    position: absolute;
+    margin : 30px;
+    right:20%;
+}
+
+.linklist{
+    text-indent: 20px;
+    list-style: none;
+    padding : 0.5rem 0.5rem;
 }
 
