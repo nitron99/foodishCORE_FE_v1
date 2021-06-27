@@ -5,7 +5,16 @@ class courses extends Component{
     render (){
         return(
             <div className="courses">
-                this is cousres page...
+               Courses Made by our Team
+
+                <div className="course1">
+                    Image of our course 1
+                </div>
+                Introduction to Nutraceuticals
+                <div className="course1">
+                    Image of our course2
+                </div>
+                Introduction to Plant Based Meat
             </div>
         );
     }

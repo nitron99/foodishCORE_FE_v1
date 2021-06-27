@@ -1,11 +1,10 @@
 .footer{
     background:rgb(14, 53, 45);
-    height: 250px;
+    height: 230px;
     color: white;
     font-size: 0.8rem;
-
-
-    position: fixed;
+    
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -15,17 +14,16 @@
 .copyrightbar
 {
     background: rgb(26, 110, 93);
-    height: 50px;
+    height: 30px;
     width: 100%;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
     position : absolute;
+    padding:5px;
+    text-align: center;
     bottom: 0px;   
 }
 
 .quicklinks{   
-    position:absolute;
+    position :absolute;
     margin : 30px;
     left : 20%;
 }

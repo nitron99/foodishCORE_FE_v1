@@ -5,7 +5,18 @@ class content extends Component{
     render (){
         return(
             <div className="content">
-                this is content page...
+                <div className="contents">
+                <div className="articles">articles</div>
+                <div className="blog" >blog</div>
+                <div className="books" >books</div>
+                </div>
+
+                <div className="divider"></div>
+
+                <div className="content">
+                    This is for other content on this page.....
+
+                </div>
             </div>
         );
     }

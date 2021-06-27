@@ -5,7 +5,7 @@
 
 .navbarItems{
     background:rgb(14, 53, 45);
-    height: 68px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
 .nav-links {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 0.77rem;
+    padding: 0.45rem 0.77rem;
 }
 
 .nav-links:hover{

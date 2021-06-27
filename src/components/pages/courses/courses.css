@@ -1,6 +1,23 @@
 .courses{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    font-size : 2rem;
+    width: 100%;
+    font-size :25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding :20px;
+}
+
+.course1{
+    margin:auto;
+    text-align: left;
+    height: 360px;
+    width:720px;
+    background-color: grey;
+}
+
+.course2{
+    margin:auto;
+    text-align: center;
+    height: 360px;
+    width:720px;
+    background-color: grey;
 }
