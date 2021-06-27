@@ -3,11 +3,11 @@
     height: 230px;
     color: white;
     font-size: 0.8rem;
-    
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
+    
     
 }
 
@@ -24,8 +24,9 @@
 
 .quicklinks{   
     position :absolute;
-    margin : 30px;
+    margin-top : 30px;
     left : 20%;
+
 }
 
 .AboutUs{
@@ -37,6 +38,15 @@
 .linklist{
     text-indent: 20px;
     list-style: none;
-    padding : 0.5rem 0.5rem;
+    padding : 0.5rem 0.5rem; 
+    
 }
+
+.listitem{
+    text-decoration: none;
+    color: white;
+}
+
+   
+
 

@@ -1,19 +1,27 @@
 import './content.css'
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class content extends Component{
     render (){
         return(
-            <div className="content">
+            <div className="CONTENT">
                 <div className="contents">
-                <div className="articles">articles</div>
-                <div className="blog" >blog</div>
-                <div className="books" >books</div>
+
+                    <Link className="article" to="/articles" >
+                        <div >Articles</div>
+                    </Link>
+                    <Link className="blog" to="/blogs" >
+                        <div  >Blogs</div>
+                    </Link>
+                    <Link  className="book" to="/books" >
+                        <div>Books</div>
+                    </Link>
                 </div>
 
                 <div className="divider"></div>
 
-                <div className="content">
+                <div className="othercontent">
                     This is for other content on this page.....
 
                 </div>

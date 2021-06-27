@@ -1,35 +1,84 @@
-*{
-    font-family: 'Roboto', sans-serif;
+
+img{
+    width: 1366px;
+    height: 500px;
+    object-fit: cover;  
 }
 
 .home{
-    font-size: 24px;
-    text-align: center;
-    width: 100%;
+    font-size: 40px;
+    text-align: left;
+    width: 1366px;
+    max-width: 1366px;
+    margin:auto;
+    font-family: 'Roboto' , serif;
 }
 
 .home_img{
     max-width: 1366;
-    width: 1366px;
-    text-align: center;
+    width: 100%;
     margin: auto;
+    margin-bottom: 10px;
     height: 500px;
-    background-color: grey;
+}
+
+.divider{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    width:100%;
 }
 
 .cards{
-    max-width: 1366;
-    margin :auto;
     display: grid;
+    place-content: center;
     grid-template-columns: repeat(3,auto);
     grid-gap: 50px;
-    margin-top: 50px;
+    text-align: center;
+    margin-top: 10px;
     margin-bottom: 50px;
     
+    
 }
-.card1,.card2,.card3,.card4{
-    width: 400px;
-    background-color: grey;
+.card1,.card2,.card3,.card4,.card5,.card6 ,.card7,.card8,.card9,.card10,.card11,.card12{
+    display:flex;
+    align-items: center;
+    font-size:35px;
+    justify-content: center;
+    padding:20px;
+    width: 420px;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 20px;
+    background-color: rgb(26, 110, 93);
+    color: white;
+    
+}
+
+.card1,.card9,.card5,.card10{
+    background-color:#c3e9b4;
+    color:rgb(26, 110, 93);
+}
+
+.card2,.card6,.card7,.card11{
+    background-color: #71eeb8 ;
+    color:rgb(26, 110, 93);
+
+}
+
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover,.card8:hover,.card9:hover,.card10:hover,.card11:hover,.card12:hover{
+    background-color: white;
+    color: rgb(14, 53, 45);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: rgb(26, 110, 93);
+    transition: all 0.25s ease-out;
+}
+
+.nav-logo-home{
+    text-decoration: none;
+    color:white;
 }

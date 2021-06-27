@@ -11,7 +11,7 @@ class courses extends Component{
                     Image of our course 1
                 </div>
                 Introduction to Nutraceuticals
-                <div className="course1">
+                <div className="course2">
                     Image of our course2
                 </div>
                 Introduction to Plant Based Meat

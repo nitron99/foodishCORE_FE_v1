@@ -4,18 +4,20 @@
 */
 
 .navbarItems{
-    background:rgb(14, 53, 45);
+    background:white;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.10rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
 }
 
 .navbar-logo {
-    color: #fff;
+    color: rgb(14, 53, 45);
     justify-self: start;
     margin-left: 20px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -31,13 +33,14 @@
 }
 
 .nav-links {
-    color: white;
+    color: rgb(14, 53, 45);
     text-decoration: none;
     padding: 0.45rem 0.77rem;
 }
 
 .nav-links:hover{
-    background-color: rgb(26, 110, 93);
+    background-color: rgb(14, 53, 45);
+    color: white;
     border-radius: 10px;
     transition: all 0.2s ease-out;
 }
@@ -51,8 +54,8 @@
 }
 
 .register:hover{
-    background-color: white;
-    color: rgb(14, 53, 45);
+    background-color: rgb(14, 53, 45);
+    color: white;
     border-radius: 10px;
     transition: all 0.2s ease-out;
 }
