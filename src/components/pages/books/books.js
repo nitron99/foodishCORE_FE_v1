@@ -13,13 +13,12 @@ class books extends Component{
                    {booklist.map((item, index)=>{
                             return (
                                    <Bookcards author={item.author} title={item.title}
-                                   pages={item.pages}/>
+                                   pages={item.pages} key={index}/>
                                                   
                             )
                         })} 
-
                   </div>
-                
+            
               </div>
               
           </div>

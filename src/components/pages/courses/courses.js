@@ -9,7 +9,7 @@ class courses extends Component{
                 <div className="courses">
                     <div className="course1">
                         <div className="course1img" > 
-                            <a target="_blank" href="https://www.udemy.com/course/introduction-to-nutraceuticals">
+                            <a target="_blank" href="https://www.udemy.com/course/introduction-to-nutraceuticals" rel="noreferrer">
                                 <img src="https://ichef.bbci.co.uk/images/ic/1280xn/p088g9c6.jpg"
                                 alt=""/>
                             </a>
@@ -25,7 +25,7 @@ class courses extends Component{
 
                     <div className="course2">
                         <div className="course2img" >
-                             <a target="_blank" href="https://www.udemy.com/course/plant-based-meat">
+                             <a target="_blank" href="https://www.udemy.com/course/plant-based-meat" rel="noreferrer">
                                 <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F606dc62c77511a5b59bd13d5%2F0x0.jpg"
                                 alt=""/>
                             </a>
