@@ -1,0 +1,65 @@
+.BOOKS{
+    width:100%;
+ 
+}
+
+.books{
+    max-width: 1360px;
+    width: 100%;
+    margin: auto;
+}
+
+.bookcards{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    display: grid;
+    place-content:center;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 38px;
+
+}
+
+.bookcard{
+    display:flex;
+    
+    width: 525px;
+    height: 250px;
+
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 4px;
+    box-shadow: 0 0 10px rgb(139, 139, 139);
+
+    border-color: rgb(26, 110, 93);
+    background-color: white;
+    color: rgb(26, 110, 93);
+
+}
+
+.title, .author{
+    font-family: 'Roboto' , serif;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.image{
+    width:200px;
+    height:242px;
+}
+
+.bookdetail{
+    width:330px;
+    height:242px;
+    padding:20px;
+    font-style: italic;
+}
+
+em{
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
