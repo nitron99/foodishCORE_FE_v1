@@ -31,7 +31,7 @@ class courses extends Component{
                             </a>
                         </div>
                         <div className="course2txt" >
-                            <h3>Introduction to Plant Based Meat</h3>
+                            <h3>Introduction to Plant-Based Meat</h3>
                             <br></br>
                              get this course on udemy.
                             </div>

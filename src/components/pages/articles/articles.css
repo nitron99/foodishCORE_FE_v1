@@ -1,0 +1,18 @@
+.ARTICLES{
+    width:100%;
+}
+
+.articles{
+    background-color: grey;
+    width: 100%;
+    max-width: 1290px;
+    margin: auto;
+    height: 2000px;
+}
+
+.art_text{
+    text-align: center;
+    font-size :25px;
+    margin-top:20px;
+    font-weight: 7600;
+}

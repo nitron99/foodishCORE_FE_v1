@@ -17,6 +17,10 @@ class content extends Component{
                     <Link  className="book" to="/books" >
                         <div>Books</div>
                     </Link>
+
+                    <Link  className="book" to="/books" >
+                        <div>GATE</div>
+                    </Link>
                 </div>
 
                 <div className="divider"></div>

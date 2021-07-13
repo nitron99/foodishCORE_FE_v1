@@ -7,6 +7,16 @@
     max-width: 1360px;
     width: 100%;
     margin: auto;
+   
+    
+
+}
+
+.text{
+    text-align: center;
+    font-size :25px;
+    margin-top:20px;
+    font-weight: 700;
 }
 
 .bookcards{
@@ -18,6 +28,8 @@
     grid-template-columns: repeat(2,auto);
     grid-gap: 38px;
 
+
+    text-decoration: none;
 }
 
 .bookcard{
@@ -31,9 +43,10 @@
     border-width: 4px;
     box-shadow: 0 0 10px rgb(139, 139, 139);
 
-    border-color: rgb(26, 110, 93);
+    border-color: rgb(14, 53, 45);
     background-color: white;
     color: rgb(26, 110, 93);
+
 
 }
 
@@ -43,11 +56,15 @@
 
 .title{
     margin-bottom: 20px;
+    color: rgb(14, 53, 45);
+
+
 }
 
 .image{
     width:200px;
     height:242px;
+    border-radius: 20px 0 0 20px ;
 }
 
 .bookdetail{
@@ -55,6 +72,8 @@
     height:242px;
     padding:20px;
     font-style: italic;
+
+    
 }
 
 em{
@@ -62,4 +81,9 @@ em{
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 20px;
+    
 }
+
+a:link{
+    text-decoration: none;
+  }

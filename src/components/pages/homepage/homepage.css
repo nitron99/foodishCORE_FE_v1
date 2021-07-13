@@ -14,6 +14,8 @@
     margin-bottom: 10px;
     object-fit: cover;
     height: 500px;
+    border-radius: 0 0 20px 20px;
+
 }
 
 .divider{

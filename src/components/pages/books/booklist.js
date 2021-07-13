@@ -73,6 +73,7 @@ export const booklist =  [
         author:'N. Shakuntala Manay, M. Shadaksharaswamy',
         pages:'519',
         image:'',
+        url: 'https://drive.google.com/file/d/11OXOv9IYm9Hv69tOV1_Ph0GN0nHo7flo/view?usp=sharing'
     }
 
     ,
