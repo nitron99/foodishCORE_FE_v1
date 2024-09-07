@@ -1,0 +1,5 @@
+const text = `this
+is \nthe 
+real`;
+
+export default text;

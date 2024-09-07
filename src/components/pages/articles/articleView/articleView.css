@@ -1,0 +1,20 @@
+.ARTICLEVIEW{
+    width:100%;
+}
+
+.articleview{
+    width: 1290px;
+    margin :auto;
+    margin-top: 20px;
+}
+
+.art_data{
+    margin-top: 25px;
+    font-size: 20px;
+    height: 100px;
+    font-family: 'Roboto',sans-serif;
+
+
+
+    font-feature-settings: normal;
+}

@@ -15,12 +15,7 @@ class bookcard extends Component{
                         <div className="author" >{this.props.author}</div>
                         <div className="pages" >{this.props.pages} pages</div>
                     </div>
-                    
-
-                    
-
                 </div>
-
             </a>
           </div>
         );

@@ -9,6 +9,7 @@ import Others from './components/pages/others/others';
 import Articles from './components/pages/articles/articles';
 import Books from './components/pages/books/books';
 import Blogs from './components/pages/blogs/blogs';
+import ArticleView from './components/pages/articles/articleView/articleView';
 
 import {BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 
@@ -29,6 +30,10 @@ function App(){
             <Route path="/articles" exact component={Articles}/>
             <Route path="/blogs" exact component={Blogs}/>
             <Route path="/books" exact component={Books}/>
+
+            <Route path="/articles/:id" exact component={ArticleView}/>
+
+            
 
           </Switch>
 
